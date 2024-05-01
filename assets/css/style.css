@@ -144,6 +144,8 @@ height: auto;
      display: block;
      
   }
+
+
   @media only screen and (max-width: 1024px) {
     .logo {
         text-align: center; /* Center the logo */
@@ -160,18 +162,19 @@ height: auto;
 
   .navbar {
     order: 1; /* Move the navbar to the left side */
-    margin-left: -12px; /* Push the navbar to the right */
+    margin-left: -8px; /* Push the navbar to the right */
     height: -20px;
     width: -20px;
-    margin-right: -8px;
+    margin-right: -3px;
     
   }
 
   .header-social-links a {
     font-size: 14px; /* Adjust size as needed */
-    margin-right: -2px;
+    margin-right: -1px;
     margin-left: 2px;
     margin-top: 10px;
+    padding: 1px;
    
   
   
@@ -204,6 +207,14 @@ height: auto;
 .testimonials{
   margin-top: 30px; 
 }
+.services {
+  margin-top: 30px; /* Adjust the value as needed */
+}
+
+.cta {
+  margin-bottom: 70px; /* Adjust the value as needed */
+}
+
 @media (max-width: 991px) {
   .logo span {
     font-size: 10px; /* Decrease the font size for smaller screens */
@@ -294,6 +305,16 @@ h3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 12px;
 }
+}
+.logo {
+  height: 50px;
+  width: 40px;
+}
+@media (max-width: 768px) {
+  .logo {
+      height: 35px;
+      width: 30px;
+  }
 }
 
 
@@ -398,8 +419,9 @@ h3 {
   margin-left: 10px;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   transition: 0.3s;
+  justify-content: center;
+  
 }
 
 .header-social-links a i {
@@ -416,8 +438,12 @@ h3 {
   }
 }
 
-
-
+.portfolio{
+  margin-top: 30px;
+}
+.contact{
+  margin-top: 30px;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -454,7 +480,7 @@ h3 {
   font-size: 15px;
   font-weight: 600;
   white-space: nowrap;
-  transition: 0.3s;
+  /* transition: 0.3s; */
   color: whitesmoke;
   position: relative;
 }
@@ -505,7 +531,7 @@ h3 {
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 
 .navbar .dropdown ul li {
@@ -568,7 +594,7 @@ h3 {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
 @media (max-width: 991px) {
