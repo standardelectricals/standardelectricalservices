@@ -125,7 +125,7 @@ h6 {
 }
 .logo img {
 height: auto;
-  width: 50px; /* Adjust size as needed */
+  width: 20px; /* Adjust size as needed */
    margin-right: 2px; /* Adjust spacing as needed */
    
 }
@@ -138,8 +138,8 @@ height: auto;
   }
 
   .logo img {
-    height: 30px;
-    width: 20px; /* Adjust size as needed */
+    height: 10px;
+    width: 10px; /* Adjust size as needed */
      margin-right: 2px; /* Adjust spacing as needed */
      display: block;
      
@@ -154,12 +154,13 @@ height: auto;
     }
 }
 
-  
+
+
   
 
   .navbar {
     order: 1; /* Move the navbar to the left side */
-    margin-left: -10px; /* Push the navbar to the right */
+    margin-left: -12px; /* Push the navbar to the right */
     height: -20px;
     width: -20px;
     margin-right: -8px;
@@ -168,7 +169,8 @@ height: auto;
 
   .header-social-links a {
     font-size: 14px; /* Adjust size as needed */
-    margin-right: 5px;
+    margin-right: -2px;
+    margin-left: 2px;
     margin-top: 10px;
    
   
@@ -253,9 +255,46 @@ h3 {
 .list-unstyled li {
   margin-bottom: 5px; /* Add space between list items */
 }
-/* 
 
+.custom-span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 84px;
+       display: flex;
+    align-items: center;
+}
 
+.custom-span.big-letter {
+    color: rgb(244, 146, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+   
+}
+
+.service-text {
+    color: rgb(244, 146, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+@media (max-width:1100px){
+.custom-span {
+  font-size: 16px;
+  color: rgb(40, 40, 47);
+  display: flex;
+  align-items: center;
+}
+
+.big-letter {
+  color: rgb(244, 146, 107);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 64px;
+}
+
+.service-text {
+  color: rgb(244, 146, 107);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+}
+}
 
 
 /*--------------------------------------------------------------
@@ -437,8 +476,8 @@ h3 {
   background-color: #ff7f5d;
   visibility: hidden;
   width: 0px;
-  transition: all 0.3s ease-in-out 0s;
-}
+  /* transition: all 0.3s ease-in-out 0s;
+} */}
 
 .navbar a:hover:before,
 .navbar li:hover>a:before,
