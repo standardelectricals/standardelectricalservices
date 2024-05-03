@@ -80,7 +80,10 @@ h6 {
 
 
 }
-
+.btn-get-started {
+  background-color: rgba(240, 128, 128, 0.3);
+}
+ 
 
 @media (max-width: 720px) {
   .normal-text {
@@ -436,6 +439,9 @@ h3 {
   .header-social-links {
     padding: 0 15px 0 0;
   }
+}
+#clients {
+  padding-top: 80px; /* Adjust the value as needed */
 }
 
 .portfolio{
@@ -983,15 +989,15 @@ section {
 
 .clients img {
   max-width: 45%;
-  transition: all 0.4s ease-in-out;
+  
   display: inline-block;
   padding: 15px 0;
-  filter: grayscale(100);
+  
 }
 
 .clients img:hover {
   filter: none;
-  transform: scale(1.15);
+ 
 }
 
 @media (max-width: 768px) {
@@ -1661,6 +1667,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
@@ -1683,7 +1690,8 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .whatsapp:hover i {
   background: #ff7f5d;
   color: #fff;
 }
