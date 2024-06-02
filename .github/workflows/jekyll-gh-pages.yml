@@ -52,7 +52,7 @@ jobs:
       - name: Generate the sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://www.example.com/
+          base-url-path: https://www.standardelectricals.net
 
       - name: Commit and push
         run: |
