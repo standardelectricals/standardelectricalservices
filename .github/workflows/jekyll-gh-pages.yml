@@ -49,6 +49,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Generate the sitemap
         uses: cicirello/generate-sitemap@v1
         with:
